@@ -166,6 +166,13 @@ a {
     border: 2px solid;
     border-radius: 8px;
     margin-top: 50px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    content: ssssssssssssssssssssssssssss;
+    background-color: #fff;
 }
 
 .button-p {
@@ -175,6 +182,10 @@ a {
     line-height: 25px;
     text-align: center;
     color: #FEFCF7;
+}
+
+.button-p:hover {
+    color: #66D2CF;
 }
 
 /* koko */
@@ -188,10 +199,11 @@ a {
     background-repeat: no-repeat;
 }
 
-.ul{
+.ul {
     display: flex;
     padding-top: 120px;
 }
+
 .h3 {
     font-family: "Fraunces";
     font-size: 24px;
@@ -207,4 +219,91 @@ a {
     font-weight: 400;
     line-height: 26px;
     text-align: center;
+}
+
+.one {
+    width: 1280px;
+    height: 577px;
+    background-color: #2C343E;
+}
+
+.one_on {
+    width: 540px;
+    height: 160px;
+    margin-left: 360px;
+    padding-top: 70px;
+}
+
+.one_h3 {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.one_p {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.p,
+h4 {
+    margin: 0px;
+    padding: 0px;
+}
+.one_li {
+    width: 350px;
+    height: 382px;
+    top: 1920px;
+    left: 165px;
+    background-color: #0E8784;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.one_img {
+    margin: 30px;
+    margin-left: 130px;
+}
+.one__img{
+    margin: 40px;
+    margin-left: 130px;
+}
+.one_h4 {
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 20px;
+}
+
+.one--p {
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 0px 39px;
+}
+
+.one_ul {
+    width: 1110px;
+    height: 382px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 180px;
+    margin-left: 15px;
 }
